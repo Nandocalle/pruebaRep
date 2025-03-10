@@ -61,6 +61,12 @@ public class Date {
     this.year = jahr;
   }
   
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
+
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
